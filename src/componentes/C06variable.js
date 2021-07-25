@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
  
  const ComponenteConVariable = (props) => {
      return (
-         <div style={{backroundColor:'yellowgreen'}}>
+         <div style={{backgroundColor:'yellowgreen'}}>
              <h4>Componente 6. Muestra de recepcion y lectura de variable, enviada
                  cuando es llamado el componente
              </h4>

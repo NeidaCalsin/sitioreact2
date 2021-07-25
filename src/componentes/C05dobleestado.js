@@ -1,4 +1,4 @@
-import React, {Fragment, useState} from 'react'
+import React, {useState, Fragment} from 'react';
 
 const EjemploDeDobleEstado = () => {
 
@@ -12,13 +12,13 @@ const EjemploDeDobleEstado = () => {
 
     return(
         <Fragment>
-            <h4>Componente 5.Ejemplo con dos estados diferentes</h4>
+            <h4>Componente 5. Ejemplo con dos estados diferentes</h4>
 
-            <button onClick={()=>setValor(valor+1)}>contador 1. con funcion abreviada</button>
+            <button onClick={()=>setValor(valor+1)}>contador 1. Con funcion abreviada</button>
             <span>Inncremento de contador 1: {valor} </span>
             <hr/>
 
-            <button onClick={IncrementoDos}>contador 2. con llamada a funcion</button>
+            <button onClick={IncrementoDos}>contador 2. Con llamada a funcion</button>
             <span>Inncremento de contador 2: {numero} </span>
 
         </Fragment>
